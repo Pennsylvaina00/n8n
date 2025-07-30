@@ -12,5 +12,5 @@ ENV WEBHOOK_URL=https://your-app-name.onrender.com
 # 暴露端口
 EXPOSE 5678
 
-# 使用正确的启动命令
-CMD ["n8n", "start", "--tunnel"]
+# 使用shell命令启动
+CMD n8n start --tunnel
